@@ -1,3 +1,17 @@
+  recipes.remove(<extrabotany:treasurebox>);
+  
+  recipes.addShaped(<extrabotany:treasurebox>,
+ [[<botania:manaresource>, <extrabotany:material:2>, <botania:manaresource>],
+  [<botania:manaresource:5>, <botania:storage:2>, <botania:manaresource:5>],
+  [<botania:manaresource>, <extrabotany:material:2>, <botania:manaresource>]]);
+  
+  recipes.remove(<extrabotany:specialbag>);
+  
+  recipes.addShaped(<extrabotany:specialbag>,
+ [[<extrabotany:material:7>, <extrabotany:material:7>, <extrabotany:material:7>],
+  [<extrabotany:material:7>, <extrabotany:treasurebox>, <extrabotany:material:7>],
+  [<extrabotany:material:7>, <extrabotany:material:7>, <extrabotany:material:7>]]);
+  
   recipes.remove(<opencomputers:cable>);
   
   recipes.addShaped(<opencomputers:cable>,
